@@ -2,42 +2,42 @@
     "tags":[
        {
             "id":"talking",
-            "name":"Дискусії",
+            "name":"Дискусии",
             "icon":"megaphone",
-            "description":"Ігри, які вимагають або виграють від дискусії між гравцями вголос."
+            "description":"Игры, которые требуют или выигрывают от дискуссии между игроками вслух."
        },
        {
        	    "id":"drawing",
-            "name":"Малювання",
+            "name":"Рисование",
             "icon":"edit",
-            "description":"У цих іграх треба малювати."
+            "description":"В этих играх надо рисовать."
        },
        {
        	    "id":"deduction",
-            "name":"Стратегія",
+            "name":"Стратегия",
             "icon":"comment_urgent",
-            "description":"Вам доведеться замислитися над своїми діями в цих іграх..."
+            "description":"Вам придется задуматься над своими действиями в этих играх..."
        },
        {
        	    "id":"knowledge",
-            "name":"Вікторина",
+            "name":"Викторина",
             "icon":"unknown",
-            "description":"Це вікторини."
+            "description":"Это викторины."
        },
        {
             "id":"writing",
-            "name":"Писання",
+            "name":"Писание",
             "icon":"text_align_middle",
-            "description":"Вам доведеться писати в цих іграх."
+            "description":"Вам придется писать в этих играх."
         }
     ],
     "patchsCategories": [
         {
-          "id": "tusa_patchs",
-          "name": "Українські переклади",
-          "smallDescription": "від TUSA",
+          "id": "tdot_patchs",
+          "name": "Переводі на руссуом языке",
+          "smallDescription": "от TDoT",
           "patchs": [
-            "jpp9_ua"
+            "jpp9_ru"
           ]
         }
       ],
@@ -2200,7 +2200,7 @@
     {
         "id":"jpp9",
         "name":"The Jackbox Party Pack 9",
-        "description":"Рік випуску: 2022",
+        "description":"Год выпуска: 2022",
         "launchers_id":{
             "steam":"1850960",
             "epic":"ec6f77d356b247dc8d210850de8a3e2f"
@@ -2226,9 +2226,9 @@
     },
     "patchs": [
         {
-          "id": "jpp9_ua",
+          "id": "jpp9_ru",
           "name": "Jackbox Party Pack 9",
-          "small_description": "Повний текстовий переклад трьох ігор українською!",
+          "small_description": "Полный текстовый перевод трёх игр на русском языке!",
           "patch_path": "https://github.com/DragonFest7/tjpp-9-ua-patch/releases/latest/download/tjpp9-ua.zip",
           "configuration": {
             "version_origin": "repo_file",
@@ -2240,24 +2240,9 @@
               "id": "roomerang_patch",
               "linked_game": "roomerang",
               "name": "Квартиранг",
-              "description": "Повний текстовий переклад!",
-              "authors": "TUSA",
-              "small_description": "Roomerang",
-              "patch_type": {
-                "game_text": true,
-                "game_assets": true,
-                "game_subtitles": true,
-                "website": true,
-                "audios": false
-              }
-            },
-            {
-              "id": "quixort_patch",
-              "linked_game": "quixort",
-              "name": "Швидкосорт",
-              "description": "Повний текстовий переклад!",
-              "authors": "TUSA",
-              "small_description": "Quixort",
+              "description": "Полный текстовый перевод с графическим наполнением!",
+              "authors": "TDoT",
+              "small_description": "Полный текстовый перевод с графическим наполнением!",
               "patch_type": {
                 "game_text": true,
                 "game_assets": true,
@@ -2269,10 +2254,10 @@
             {
               "id": "junktopia_patch",
               "linked_game": "junktopia",
-              "name": "Сміттєтопія",
-              "description": "Повний текстовий переклад!",
-              "authors": "TUSA",
-              "small_description": "Junktopia",
+              "name": "Хламтопия",
+              "description": "Полный перевод!",
+              "authors": "TDoT",
+              "small_description": "Полный перевод!",
               "patch_type": {
                 "game_text": true,
                 "game_assets": true,
@@ -2281,6 +2266,21 @@
                 "audios": false
               }
             }
+			{
+              "id": "nonsensory_patch",
+              "linked_game": "nonsensory",
+              "name": "Безмыслица",
+              "description": "Полный перевод!",
+              "authors": "TDoT",
+              "small_description": "Полный перевод!",
+              "patch_type": {
+                "game_text": true,
+                "game_assets": true,
+                "game_subtitles": true,
+                "website": true,
+                "audios": false
+              }
+            },
         ]
         }
     ],
@@ -2348,16 +2348,16 @@
                     },
                     "family_friendly":"OPTIONAL",
                     "audience":true,
-                    "audience_description":"Глядачі можуть голосувати за вподобані відповіді. До того ж вони відповідають на різні опитування, коли гравці набирають текст.",
+                    "audience_description":"Зрители могут голосовать за понравившиеся ответы. К тому же они отвечают на различные опросы, когда игроки набирают текст.",
                     "stream_friendly":"PLAYABLE",
                     "moderation":"FULL_MODERATION",
-                    "moderation_description":"З увімкненою опцією \"Модерація\" модератори, які зайдуть на mod.jackbox.tv, зможуть вирішувати, що зображатиметься на екрані. Вони також можуть усувати гравців з гри. За необхідності рекомендується увімкнути опцію \"Фільтр нецензурної лексики\".",
+                    "moderation_description":"С включенной опцией \"Модерация\" модераторы, которые зайдут на mod.jackbox.ru, смогут решать, что будет отображаться на экране. Они также могут отстранять игроков из игры. При необходимости рекомендуется включить опцию \"Фильтр нецензурной лексики\".",
                     "subtitles":true,
                     "type":"VERSUS",
                     "translation":"COMMUNITY_TRANSLATED",
-                    "tagline":"Чи залишишся ти у цьому домі?",
-                    "small_description":"Чи залишишся ти у цьому домі?",
-                    "description":"Увімкніть свою внутрішню зірку реаліті-шоу і спробуйте вийти на вершину! Відповідайте на провокативні запитання, змагайтеся та грайте за своїми ролями, щоб уникнути вирішального голосу. Не бійтеся, навіть якщо вас виставлять за двері, ви знову опинитеся в ролі Квартиранта!",
+                    "tagline":"Останешься ли ты в этом доме?",
+                    "small_description":"Останешься ли ты в этом доме?",
+                    "description":"Покажите всем свою внутреннюю звезду реалити-шоу и попытайтесь попасть на первое место! Отвечайте на задания, участвуйте в соревнованиях и ролевых играх, чтобы избежать исключения. Но не бойтесь, даже если вы выбыли - Квартиранг вернёт вас в драму!",
                     "images":[
                         "game_images/Roomerang/roomerang.mp4",
                         "game_images/Roomerang/roomerang_1.jpg",
@@ -2380,7 +2380,7 @@
             },
             {
                 "id":"junktopia",
-                "name":"Сміттєтопія",
+                "name":"Хламтопия ",
                 "background":"game_backgrounds/Junktopia.webp",
                 "path":"games/AntiqueGame",
                 "game_info":{
@@ -2395,17 +2395,17 @@
                     },
                     "family_friendly":"OPTIONAL",
                     "audience":true,
-                    "audience_description":"Глядачі можуть голосувати за вподобані відповіді.",
+                    "audience_description":"Зрители могут голосовать за понравившиеся ответы.",
                     "stream_friendly":"MIDLY_PLAYABLE",
-                    "stream_friendly_description":"Оскільки ця гра зосереджена на презентації, бажано, щоб гравці могли принаймні чути один одного.",
+                    "stream_friendly_description":"Поскольку эта игра сосредоточена на презентации, желательно, чтобы игроки могли по крайней мере слышать друг друга.",
                     "moderation":"FULL_MODERATION",
-                    "moderation_description":"З увімкненою опцією \"Модерація\" модератори, які зайдуть на mod.jackbox.tv, зможуть вирішувати, що зображатиметься на екрані. Вони також можуть усувати гравців з гри. За необхідності рекомендується увімкнути опцію \"Фільтр нецензурної лексики\".",
+                    "moderation_description":"С включенной опцией \"Модерация\" модераторы, которые зайдут на mod.jackbox.ru, смогут решать, что будет отображаться на экране. Они также могут отстранять игроков из игры. При необходимости рекомендуется включить опцию \"Фильтр нецензурной лексики\".",
                     "subtitles":true,
                     "type":"VERSUS",
                     "translation":"COMMUNITY_TRANSLATED",
-                    "tagline":"Продавайте свої товари",
-                    "small_description":"Продавайте свої товари",
-                    "description":"Чарівник-дивак перетворив вас на жаб! Вигадуйте кумедні історії для незвичних предметів, а потім оцінюйте їх. Гравець з найціннішими предметами знову стає людиною!",
+                    "tagline":"Продавайте свои товары",
+                    "small_description":"Продавайте свои товары",
+                    "description":"Игра, в которой вы должны продать не самые привлекательные товары, придумав им привлекательную предысторию, или просто всех рассмешить! Проявите фантазию и верните себе ноги!",
                     "images":[
                         "game_images/Junktopia/junktopia.mp4",
                         "game_images/Junktopia/junktopia_1.jpg",
@@ -2444,16 +2444,16 @@
                     },
                     "family_friendly":"OPTIONAL",
                     "audience":true,
-                    "audience_description":"The audience tries to guess the correct answer along with the other players. They can win the game if they beat the score of the players.",
+                    "audience_description":"Зрители пытаются угадать правильный ответ вместе с другими игроками. Они могут выиграть игру, если побьют счет игроков.",
                     "stream_friendly":"PLAYABLE",
                     "moderation":"FULL_MODERATION",
-                    "moderation_description":"With the \"Moderation\" option enabled, the mods that enter mod.jackbox.tv will be able to decide what's displayed on-screen. They can also kick players off the game. If necessary, it's recommended to enable the \"Profanity Filter\" option.",
+                    "moderation_description":"При включенной опции \"Модерация\" моды, входящие в mod.jackbox.ru, смогут решать, что будет отображаться на экране. Они также могут выводить игроков из игры. При необходимости рекомендуется включить опцию \"Фильтр ненормативной лексики\".",
                     "subtitles":true,
                     "type":"VERSUS",
                     "translation":"ENGLISH",
-                    "tagline":"Share your thoughts",
-                    "small_description":"Share your thoughts",
-                    "description":"Professor Nanners is here to test your NSP (Nonsensory Perception) in this drawing, writing, and guessing game! How close can you get to guessing where another player’s prompt ranks on the silliest of scales?",
+                    "tagline":"Поделитесь своими мыслями",
+                    "small_description":"Поделитесь своими мыслями",
+                    "description":"Добро пожаловать в игру с угадыванием! Профессор Макакова приглашает вас проверить ваше БМВ (безмысленное восприятие), и попытаться угадать, какое место занимает вопрос другого игрока на самой глупой шкале.",
                     "images":[
                         "game_images/Nonsensory/nonsensory.mp4",
                         "game_images/Nonsensory/nonsensory_1.jpg",
@@ -2476,7 +2476,7 @@
             },
             {
                 "id":"quixort",
-                "name":"Швидкосорт",
+                "name":"Quixort",
                 "background":"game_backgrounds/Quixort.webp",
                 "path":"games/Lineup",
                 "game_info":{
@@ -2491,17 +2491,17 @@
                     },
                     "family_friendly":"OPTIONAL",
                     "audience":true,
-                    "audience_description":"Глядачі долучаються до команд і сортують блоки так само, як і гравці. Наприкінці гри перемагає команда глядачів, яка робитиме це найкраще.",
+                    "audience_description":"Spectators join teams and sort the blocks just like the players. At the end of the game, the team that does the best job wins.",
                     "stream_friendly":"MIDLY_PLAYABLE",
-                    "stream_friendly_description":"Оскільки ця гра заснована на обговоренні, бажано, щоб гравці могли принаймні чути один одного.",
+                    "stream_friendly_description":"Since this game is based on discussion, it is advisable that players can at least hear each other.",
                     "moderation":"FULL_MODERATION",
-                    "moderation_description":"З увімкненою опцією \"Модерація\" модератори, які зайдуть на mod.jackbox.tv, зможуть усувати гравців з гри за потреби.",
+                    "moderation_description":"With the \"Moderation\" option enabled, moderators who log in to mod.jackbox.tv will be able to remove players from the game if necessary.",
                     "subtitles":true,
                     "type":"TEAM",
                     "translation":"COMMUNITY_TRANSLATED",
-                    "tagline":"Ці блоки самі себе не відсортують!",
-                    "small_description":"Впорядковуйте блоки",
-                    "description":"Працюйте разом на цій сортувальній фабриці зі своєю командою, щоб відсортувати відповіді, що падають, у правильному порядку, перш ніж вони потраплять на конвеєр! Або ж грайте наодинці та перевіряйте, скільки блоків ви зможете відсортувати, поки вони вам не перекриють шлях. Це просто, як 1-2-3!",
+                    "tagline":"These blocks will not sort themselves!",
+                    "small_description":"Organize your blocks",
+                    "description":"In this trivia sorting factory, work with your team to sort falling answers into their proper order before they hit the floor! Or, play the single player mode and see how many blocks you can sort before topping out. It’s as easy as A, C, B!",
                     "images":[
                         "game_images/Quixort/quixort.mp4",
                         "game_images/Quixort/quixort_1.jpg",
