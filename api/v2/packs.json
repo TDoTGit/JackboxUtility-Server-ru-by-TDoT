@@ -2429,7 +2429,7 @@
             },
             {
                 "id":"nonsensory",
-                "name":"Nonsensory",
+                "name":"Безмыслица",
                 "background":"game_backgrounds/Nonsensory.webp",
                 "path":"games/RangeGame",
                 "game_info":{
