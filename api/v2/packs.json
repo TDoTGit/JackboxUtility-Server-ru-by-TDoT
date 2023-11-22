@@ -2265,7 +2265,7 @@
                 "website": true,
                 "audios": false
               }
-            }
+            },
 			{
               "id": "nonsensory_patch",
               "linked_game": "nonsensory",
@@ -2280,7 +2280,7 @@
                 "website": true,
                 "audios": false
               }
-            },
+            }
         ]
         }
     ],
