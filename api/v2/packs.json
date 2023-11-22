@@ -2229,10 +2229,10 @@
           "id": "jpp9_ru",
           "name": "Jackbox Party Pack 9",
           "small_description": "Полный текстовый перевод трёх игр на русском языке!",
-          "patch_path": "https://github.com/DragonFest7/tjpp-9-ua-patch/releases/latest/download/tjpp9-ua.zip",
+          "patch_path": "https://github.com/TDoTGit/TJPP9-TDoT/releases/latest/download/TJPP9-TDoT.rar",
           "configuration": {
             "version_origin": "repo_file",
-            "version_file": "https://raw.githubusercontent.com/DragonFest7/tjpp-9-ua-patch/master/jbg.config.jet",
+            "version_file": "https://raw.githubusercontent.com/TDoTGit/TJPP9-TDoT/master/jbg.config.jet",
             "version_property": "buildVersion"
           },
           "components": [
@@ -2450,7 +2450,7 @@
                     "moderation_description":"При включенной опции \"Модерация\" моды, входящие в mod.jackbox.ru, смогут решать, что будет отображаться на экране. Они также могут выводить игроков из игры. При необходимости рекомендуется включить опцию \"Фильтр ненормативной лексики\".",
                     "subtitles":true,
                     "type":"VERSUS",
-                    "translation":"ENGLISH",
+                    "translation":"COMMUNITY_TRANSLATED",
                     "tagline":"Поделитесь своими мыслями",
                     "small_description":"Поделитесь своими мыслями",
                     "description":"Добро пожаловать в игру с угадыванием! Профессор Макакова приглашает вас проверить ваше БМВ (безмысленное восприятие), и попытаться угадать, какое место занимает вопрос другого игрока на самой глупой шкале.",
@@ -2498,7 +2498,7 @@
                     "moderation_description":"With the \"Moderation\" option enabled, moderators who log in to mod.jackbox.tv will be able to remove players from the game if necessary.",
                     "subtitles":true,
                     "type":"TEAM",
-                    "translation":"COMMUNITY_TRANSLATED",
+                    "translation":"ENGLISH",
                     "tagline":"These blocks will not sort themselves!",
                     "small_description":"Organize your blocks",
                     "description":"In this trivia sorting factory, work with your team to sort falling answers into their proper order before they hit the floor! Or, play the single player mode and see how many blocks you can sort before topping out. It’s as easy as A, C, B!",
