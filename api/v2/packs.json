@@ -2229,7 +2229,7 @@
           "id": "jpp9_ru",
           "name": "Jackbox Party Pack 9",
           "small_description": "Полный текстовый перевод трёх игр на русском языке!",
-          "patch_path": "https://github.com/TDoTGit/TJPP9-TDoT/releases/latest/download/TJPP9-TDoT.rar",
+          "patch_path": "https://github.com/TDoTGit/TJPP9-TDoT/releases/latest/download/TJPP9-TDoT.zip",
           "configuration": {
             "version_origin": "repo_file",
             "version_file": "https://raw.githubusercontent.com/TDoTGit/TJPP9-TDoT/master/jbg.config.jet",
